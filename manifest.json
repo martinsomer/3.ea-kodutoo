@@ -7,6 +7,6 @@
     "browser_action": {
         "default_title": "NetSpeed",
         "default_popup": "popup.html",
-        "default_icon": "icon_64.png"
+        "default_icon": "images/icon_64.png"
     }
 }
