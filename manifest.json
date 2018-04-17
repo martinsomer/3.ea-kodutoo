@@ -2,7 +2,7 @@
     "name": "NetSpeed",
     "author": "Martin Sõmer",
     "version": "1.0",
-    "description": "Measure Internet speed with a small and easy to use extenion.",
+    "description": "Small and easy to use Chrome extension for measuring Internet speed.",
     "manifest_version": 2,
     "browser_action": {
         "default_title": "NetSpeed",
