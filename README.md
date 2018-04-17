@@ -19,7 +19,7 @@ Small and easy to use Chrome extension for measuring Internet speed.
 ### How *NOT* to use:  
 * Do not close the extension before the completion of the test, otherwise the test will not finish  
 * Do not try to run multiple tests at the same time. It doesn't work by design  
-* Do not try to clear test history while a test is running. It doesn't work by design  
+* Do not try to clear the test history while a test is still running. It doesn't work by design  
 
 ### Images:  
 ![Image 1](images/image_1.png "Testing")  
