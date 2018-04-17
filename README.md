@@ -1,20 +1,27 @@
-# 3. kodutöö – Chrome extension
+#### Martin Sõmer, 2018  
+- - - -  
 
-Kodutööna peab looma Chrome extension'i selliselt, et nõuded oleksid täidetud. Soovi korral võib ka teha Firefox'ile.
+### Description:  
+Small and easy to use Chrome extension for measuring Internet speed.  
 
-**Töö on soovitatav teha kahekesi!**
+### Features:  
+* Simple and modern design  
+* Connection speed testing  
+* Keep test history  
+* Clear test history  
 
-## Nõuded
+### How to use:  
+* Click on the icon to open the extension  
+* Click on the icon again or outside the extension to close it  
+* Click on *"Test speed"* to measure connection speed  
+* Click on *"Clear history"* to clear the test history  
 
-1. Kirjelda README.md failis, mida rakendus teeb. 
-1. Rakendus peab tegema külastatava veebilehe/veebirakenduse kas ilusamaks, mugavamaks või huvitamaks.
-1. Peab oleama piisavalt keerukas (midagi enemat kui tunnis tegmine)
-1. Ole loominguline, näiteks põnevad asjad millele saab brauser ligi, kuid nendega on keeruline toimetada.
-    - bluetooth, sh pulsivöö [dokumentatsioon](https://developers.google.com/web/updates/2015/07/interact-with-ble-devices-on-the-web)
-    - mikrofon [näide](https://www.talater.com/annyang/)
-    - webcam [näide](https://revealjs.herokuapp.com/#/0/1)
+### How *NOT* to use:  
+* Do not close the extension before the completion of the test, otherwise the test will not finish  
+* Do not try to run multiple tests at the same time. It doesn't work by design  
+* Do not try to clear test history while a test is running. It doesn't work by design  
 
-## Täiendav abimaterjal
-
-* Chrome extension API [JavaScript APIs](https://developer.chrome.com/extensions/api_index/)
-* Chrome extension'ite näited [Sample Extensions](https://developer.chrome.com/extensions/samples/)
+### Images:  
+![Image 1](images/image_1.png "Testing")  
+![Image 2](images/image_2.png "Interface")  
+![Image 3](images/image_3.png "Clearing history")  

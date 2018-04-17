@@ -1,0 +1,12 @@
+{
+    "name": "NetSpeed",
+    "author": "Martin Sõmer",
+    "version": "1.0",
+    "description": "Measure Internet speed with a small and easy to use extenion.",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_title": "NetSpeed",
+        "default_popup": "popup.html",
+        "default_icon": "icon_64.png"
+    }
+}

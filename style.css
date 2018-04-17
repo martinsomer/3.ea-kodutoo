@@ -1,0 +1,38 @@
+* {
+    font-family: Helvetica;
+}
+
+nobr:not(#buttonnobr) {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+nobr:nth-of-type(2) {
+    color: #CC5D41;
+    font-weight: 600;
+}
+
+button {
+    text-align: center;
+    cursor: pointer;
+    font-family: Helvetica;
+    color: #57bc90;
+    font-weight: 500;
+    background: white;
+    border: 2px solid #57bc90;
+    border-radius: 40px;
+    padding: 5px 10px 5px 10px;
+    text-overflow: clip;
+    letter-spacing: 1px;
+    transition: background-color .3s, color .3s;
+}
+
+button:hover {
+    color: white;
+    background: #57bc90;
+}
+
+button:focus {
+    outline: 0;
+}
