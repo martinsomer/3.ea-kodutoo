@@ -15,9 +15,10 @@ Small and easy to use Chrome extension for measuring Internet speed.
 * Click on the icon again or outside the extension to close it  
 * Click on *"Test speed"* to measure connection speed  
 * Click on *"Clear history"* to clear the test history  
+* Please note that the time it takes for a test to complete depends on the speed of the connection  
 
 ### How *NOT* to use:  
-* Do not close the extension before the completion of the test, otherwise the test will not finish  
+* Do not close the extension before the completion of a test, otherwise the test will not finish  
 * Do not try to run multiple tests at the same time. It doesn't work by design  
 * Do not try to clear the test history while a test is still running. It doesn't work by design  
 
