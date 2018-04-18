@@ -25,12 +25,19 @@ button {
     padding: 5px 10px 5px 10px;
     text-overflow: clip;
     letter-spacing: 1px;
-    transition: background-color .3s, color .3s;
 }
 
 button:hover {
+    transition: background-color .3s, color .3s;
     color: white;
     background: #57bc90;
+}
+
+button:active {
+    transition: background-color 0s, color 0s;
+    color: white;
+    border: 2px solid #4A9975;
+    background: #4A9975;
 }
 
 button:focus {
