@@ -164,6 +164,7 @@ function saveData(date, speed) {
     
     console.log("Saving data...")
     
+    //inspired by github.com/nsalong/2.ea-kodutoo/blob/master/app.js#L301
     arr = []
     if (window.localStorage.length == 0) {
         item = [date,speed]
